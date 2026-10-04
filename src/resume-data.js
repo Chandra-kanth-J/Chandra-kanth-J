@@ -26,7 +26,7 @@ export const resume = {
     { icon: "database", label: "Valkey & Scalable Systems" }
   ],
   metrics: [
-    { icon: "bot", tone: "cyan", value: "OneRay", label: "AI Platform", detail: "Complaint analysis, edge cases, failure insights, and QA workflows" },
+    { icon: "bot", tone: "cyan", value: "Agentic AI", label: "Engineering Systems", detail: "RAG workflows, complaint insights, QA validation, and automation" },
     { icon: "workflow", tone: "purple", value: "End to End", label: "Solution Engineering", detail: "From understanding a problem through implementation and validation" },
     { icon: "validate", tone: "green", value: "Human + AI", label: "Review Workflows", detail: "Multi-step model workflows with human-in-the-loop validation" },
     { icon: "trend", tone: "yellow", value: "Built to Scale", label: "Production Focus", detail: "Model and cost optimization, caching, and system scalability" }
