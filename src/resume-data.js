@@ -97,50 +97,50 @@ export const resume = {
       "skills": [
         {
           "name": "AI Engineering",
-          "level": 80
+          "level": 95
         },
         {
           "name": "Agentic AI",
-          "level": 80
+          "level": 92
         },
         {
           "name": "LLMs",
           "icon": "bot",
-          "level": 80
+          "level": 89
         },
         {
           "name": "LangChain",
           "icon": "code",
-          "level": 80
+          "level": 91
         },
         {
           "name": "LangGraph",
           "icon": "workflow",
-          "level": 80
+          "level": 83
         },
         {
           "name": "Multi-Agent Orchestration",
           "icon": "workflow",
-          "level": 80
+          "level": 88
         },
         {
           "name": "RAG",
           "icon": "bot",
-          "level": 80
+          "level": 99
         },
         {
           "name": "Prompt Engineering",
-          "level": 80
+          "level": 93
         },
         {
           "name": "Embeddings",
           "icon": "database",
-          "level": 80
+          "level": 88
         },
         {
           "name": "Vector Search",
           "icon": "search",
-          "level": 80
+          "level": 82
         }
       ]
     },
@@ -150,46 +150,46 @@ export const resume = {
         {
           "name": "Complaint Data Analysis",
           "icon": "search",
-          "level": 80
+          "level": 85
         },
         {
           "name": "Edge-Case Detection",
           "icon": "search",
-          "level": 80
+          "level": 83
         },
         {
           "name": "Failure Component Analysis",
           "icon": "factory",
-          "level": 80
+          "level": 88
         },
         {
           "name": "Failure Condition Analysis",
           "icon": "factory",
-          "level": 80
+          "level": 90
         },
         {
           "name": "QA Validation",
           "icon": "validate",
-          "level": 80
+          "level": 92
         },
         {
           "name": "Workflow Automation",
           "icon": "workflow",
-          "level": 80
+          "level": 81
         },
         {
           "name": "OCR",
           "icon": "file",
-          "level": 80
+          "level": 96
         },
         {
           "name": "Semantic Analysis",
-          "level": 80
+          "level": 99
         },
         {
           "name": "Human-in-the-Loop Review",
           "icon": "discover",
-          "level": 80
+          "level": 93
         }
       ]
     },
@@ -199,37 +199,37 @@ export const resume = {
         {
           "name": "Model Optimization",
           "icon": "trend",
-          "level": 80
+          "level": 84
         },
         {
           "name": "LLM Cost Analysis",
           "icon": "chart",
-          "level": 80
+          "level": 99
         },
         {
           "name": "Multi-Call Workflows",
           "icon": "workflow",
-          "level": 80
+          "level": 95
         },
         {
           "name": "LLM Validation",
           "icon": "validate",
-          "level": 80
+          "level": 88
         },
         {
           "name": "Model Monitoring",
           "icon": "search",
-          "level": 80
+          "level": 81
         },
         {
           "name": "Batch Processing",
           "icon": "database",
-          "level": 80
+          "level": 86
         },
         {
           "name": "Automated Testing",
           "icon": "validate",
-          "level": 80
+          "level": 85
         }
       ]
     },
@@ -239,55 +239,55 @@ export const resume = {
         {
           "name": "End-to-End Software Development",
           "icon": "code",
-          "level": 80
+          "level": 94
         },
         {
           "name": "Python",
           "icon": "code",
-          "level": 88
+          "level": 85
         },
         {
           "name": "FastAPI",
           "icon": "code",
-          "level": 80
+          "level": 84
         },
         {
           "name": "REST APIs",
           "icon": "workflow",
-          "level": 80
+          "level": 95
         },
         {
           "name": "PostgreSQL",
           "icon": "database",
-          "level": 85
+          "level": 100
         },
         {
           "name": "Valkey",
           "icon": "database",
-          "level": 80
+          "level": 91
         },
         {
           "name": "Caching",
           "icon": "database",
-          "level": 80
+          "level": 88
         },
         {
           "name": "System Scalability",
           "icon": "trend",
-          "level": 80
+          "level": 99
         },
         {
           "name": "Google Cloud Platform",
           "icon": "workflow",
-          "level": 78
+          "level": 90
         },
         {
           "name": "Git",
-          "level": 80
+          "level": 89
         },
         {
           "name": "GitHub",
-          "level": 80
+          "level": 95
         }
       ]
     },
@@ -297,50 +297,50 @@ export const resume = {
         {
           "name": "Problem Discovery",
           "icon": "search",
-          "level": 80
+          "level": 100
         },
         {
           "name": "Technical Solution Design",
           "icon": "model",
-          "level": 80
+          "level": 87
         },
         {
           "name": "Stakeholder Collaboration",
           "icon": "discover",
-          "level": 90
+          "level": 88
         },
         {
           "name": "Data Analysis",
           "icon": "chart",
-          "level": 92
+          "level": 81
         },
         {
           "name": "SQL",
           "icon": "database",
-          "level": 90
+          "level": 95
         },
         {
           "name": "Power BI",
           "icon": "chart",
-          "level": 88
+          "level": 86
         },
         {
           "name": "Data Visualization",
           "icon": "chart",
-          "level": 80
+          "level": 95
         },
         {
           "name": "Operational Reporting",
           "icon": "file",
-          "level": 80
+          "level": 93
         },
         {
           "name": "Agile",
-          "level": 80
+          "level": 94
         },
         {
           "name": "Scrum",
-          "level": 80
+          "level": 91
         }
       ]
     }
