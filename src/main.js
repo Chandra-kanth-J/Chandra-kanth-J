@@ -64,7 +64,7 @@ app.innerHTML = `
       <div class="terminal-body">
         <p class="boot-line" style="--delay:.15s">&gt; Initializing AI Engineering System...</p>
         <p class="boot-line" style="--delay:.6s">&gt; Loading agentic workflows...</p>
-        <p class="boot-line" style="--delay:1.05s">&gt; Connecting to OneRay systems...</p>
+        <p class="boot-line" style="--delay:1.05s">&gt; Connecting to the Agentic Engineering Environment...</p>
         <p class="boot-line" style="--delay:1.5s">&gt; Preparing complaint analysis workflows...</p>
         <p class="boot-line" style="--delay:1.95s">&gt; Loading Technical Solution Engineer Profile...</p>
         <p class="boot-line online" style="--delay:2.4s">&gt; Chandrakanth J - ONLINE <span class="terminal-cursor"></span></p>
