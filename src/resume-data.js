@@ -8,7 +8,7 @@ export const resume = {
   github: "https://github.com/Chandra-kanth-J",
   orbitSkills: {
     inner: ["Agentic AI", "Python", "Power BI"],
-    outer: ["RAG", "SQL"]
+    outer: ["SQL", "RAG"]
   },
   intro:
     "I build AI solutions that help teams turn complex complaint data into clearer investigations, validated findings, and practical workflows.",
