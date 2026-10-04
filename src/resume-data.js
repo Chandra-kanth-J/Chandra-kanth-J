@@ -2,7 +2,7 @@ export const resume = {
   name: "Chandrakanth J",
   role: "Technical Solution Engineer",
   secondaryRole: "AI Engineering · Agentic Systems · End-to-End Solutions",
-  location: "Mysore, Karnataka, India",
+  location: "Bangalore",
   email: "chandrakanth.chethu@outlook.com",
   linkedin: "https://www.linkedin.com/in/chandrakanth-j-753759243/",
   github: "https://github.com/Chandra-kanth-J",
@@ -15,7 +15,7 @@ export const resume = {
     "I contribute to OneRay, an end-to-end AI platform for complaint analysis and quality workflows. It reads complaint data, surfaces edge cases, identifies failure components and conditions, and supports QA validation and automation across multiple use cases. My work includes RAG and agentic systems with LangChain and LangGraph, model optimization, LLM cost analysis, human-in-the-loop workflows with multiple model calls, Valkey caching, and scalability. I work through problems one by one, from understanding what a person or team needs to building and improving a solution."
   ],
   profileFacts: [
-    "Mysore, Karnataka, India",
+    "Bangalore",
     "chandrakanth.chethu@outlook.com",
     "AI Engineering & Technical Solutions"
   ],
