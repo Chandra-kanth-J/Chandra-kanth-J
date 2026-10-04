@@ -54,6 +54,10 @@ const skillCategories = resume.skillGroups.map((group, index) => ({
   tone: ["cyan", "purple", "green", "purple", "cyan", "green"][index],
   skills: group.skills.map(skill => ({ ...skill, icon: skillIcon(skill.name, skillIcons[index]) }))
 }));
+const orbitSkills = (skills, startIndex) => skills.map((skill, index) => {
+  const angle = (startIndex + index * 2) * 72 - 90;
+  return `<li style="--angle:${angle}deg"><span class="orbit-skill-angle"><span class="orbit-skill-pill">${skill}</span></span></li>`;
+}).join("");
 
 const app = document.querySelector("#app");
 document.body.classList.add("booting");
@@ -89,10 +93,11 @@ app.innerHTML = `
         <div class="socials" aria-label="Social links"><a href="${resume.github}" target="_blank" rel="noreferrer" aria-label="GitHub">${icon("github")}</a><a href="${resume.linkedin}" target="_blank" rel="noreferrer" aria-label="LinkedIn">${icon("linkedin")}</a><button data-copy-email aria-label="Copy email address">${icon("mail")}</button></div>
         <div class="hero-actions"><a class="button primary" href="#command-nav">Launch Console ${icon("arrow")}</a><a class="button secondary" href="#projects">Explore projects ${icon("arrow")}</a></div>
       </div>
-      <div class="profile-orbit reveal" aria-label="Profile portrait of ${resume.name}">
-        <div class="orbit orbit-one"><i></i></div><div class="orbit orbit-two"><i></i></div><div class="orbit orbit-three"><i></i></div>
+      <div class="profile-orbit reveal" role="group" aria-label="${resume.name} portrait and featured skills">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div><div class="orbit orbit-three" aria-hidden="true"></div>
         <div class="portrait-shell"><img src="/profile.png" alt="${resume.name}" /></div>
-        <span class="orbit-label label-one">LANGGRAPH</span><span class="orbit-label label-two">VALKEY</span><span class="orbit-label label-three">RAG</span>
+        <ul class="orbit-skill-ring orbit-skill-inner" aria-label="Featured AI and data skills">${orbitSkills(resume.orbitSkills.inner, 0)}</ul>
+        <ul class="orbit-skill-ring orbit-skill-outer" aria-label="Featured AI and data skills">${orbitSkills(resume.orbitSkills.outer, 1)}</ul>
       </div>
     </section>
 

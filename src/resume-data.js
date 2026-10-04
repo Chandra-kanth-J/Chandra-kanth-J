@@ -2,10 +2,14 @@ export const resume = {
   name: "Chandrakanth J",
   role: "Technical Solution Engineer",
   secondaryRole: "AI Engineering · Agentic Systems · End-to-End Solutions",
-  location: "Bangalore",
+  location: "Bengaluru, Karnataka, India",
   email: "chandrakanth.chethu@outlook.com",
   linkedin: "https://www.linkedin.com/in/chandrakanth-j-753759243/",
   github: "https://github.com/Chandra-kanth-J",
+  orbitSkills: {
+    inner: ["Agentic AI", "Python", "Power BI"],
+    outer: ["RAG", "SQL"]
+  },
   intro:
     "I build AI solutions that help teams turn complex complaint data into clearer investigations, validated findings, and practical workflows.",
   summary:
@@ -15,7 +19,7 @@ export const resume = {
     "I contribute to OneRay, an end-to-end AI platform for complaint analysis and quality workflows. It reads complaint data, surfaces edge cases, identifies failure components and conditions, and supports QA validation and automation across multiple use cases. My work includes RAG and agentic systems with LangChain and LangGraph, model optimization, LLM cost analysis, human-in-the-loop workflows with multiple model calls, Valkey caching, and scalability. I work through problems one by one, from understanding what a person or team needs to building and improving a solution."
   ],
   profileFacts: [
-    "Bangalore",
+    "Bengaluru, Karnataka, India",
     "chandrakanth.chethu@outlook.com",
     "AI Engineering & Technical Solutions"
   ],
@@ -45,7 +49,7 @@ export const resume = {
       companyUrl: "https://www.axionray.com/",
       employmentType: "Full-time",
       period: "April 2026 - Present",
-      location: "Bangalore, Karnataka",
+      location: "Bengaluru, Karnataka",
       bullets: [
         "Work with people across teams to understand the problems they encounter and resolve issues with agentic AI workflows one by one.",
         "Contribute to end-to-end development of OneRay, an AI platform for complaint analysis, quality validation, and workflow automation across multiple use cases.",
@@ -62,7 +66,7 @@ export const resume = {
       companyUrl: "https://www.axionray.com/",
       employmentType: "Full-time",
       period: "October 2025 - April 2026",
-      location: "Bangalore, Karnataka",
+      location: "Bengaluru, Karnataka",
       bullets: [
         "Worked with users in the healthcare industry to understand dashboard and product issues, investigate them, and resolve workflow problems.",
         "Created dashboards and visual analytics to help users explore data and monitor the information relevant to their work.",
