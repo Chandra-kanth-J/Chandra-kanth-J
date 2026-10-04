@@ -22,8 +22,8 @@ export const resume = {
   profileHighlights: [
     { icon: "bot", label: "Agentic AI & RAG" },
     { icon: "workflow", label: "LangChain & LangGraph" },
-    { icon: "validate", label: "Complaint QA Workflows" },
-    { icon: "database", label: "Valkey & Scalable Systems" }
+    { icon: "validate", label: "LLM Modeling" },
+    { icon: "database", label: "Scalability Systems" }
   ],
   metrics: [
     { icon: "bot", tone: "cyan", value: "Agentic AI", label: "Engineering Systems", detail: "RAG workflows, complaint insights, QA validation, and automation" },
